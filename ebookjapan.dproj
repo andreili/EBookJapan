@@ -20,6 +20,7 @@
 			<Base>true</Base>
 		</PropertyGroup>
 		<PropertyGroup Condition="'$(Base)'!=''">
+			<DCC_Alignment>0</DCC_Alignment>
 			<DCC_DcuOutput>dcu</DCC_DcuOutput>
 			<DCC_ExeOutput>exe</DCC_ExeOutput>
 			<DCC_UnitSearchPath>.\DEC;$(DCC_UnitSearchPath)</DCC_UnitSearchPath>
